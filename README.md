@@ -51,9 +51,9 @@ By analyzing these complaint summaries, the goal is to assist manufacturers and 
 
 | Model                  | Hardware              | Time      | Model Size |
 |------------------------|-----------------------|-----------|------------|
-| Logistic Regression    | Google Colab CPU      | ~3 minutes | Small      |
-| Support Vector Machine | Google Colab CPU      | ~3 minutes | Small      |
-| Random Forest          | Google Colab CPU      | ~5 minutes | Medium     |
+| Logistic Regression    | Google Colab CPU      | 41 seconds | Small      |
+| Support Vector Machine | Google Colab CPU      | ~1 minute | Small      |
+| Random Forest          | Google Colab CPU      | ~14 minutes | Medium     |
 | DistilBERT             | Google Colab GPU      | ~3.5 hours | ~256MB     |
 
 ## Tools and Technologies
@@ -65,9 +65,9 @@ By analyzing these complaint summaries, the goal is to assist manufacturers and 
 
 ## Conclusion
 
-This project demonstrates that while deep learning models like DistilBERT can yield the highest accuracy for text classification tasks, classical models remain strong contenders — especially when balancing resource efficiency and performance.
+This project demonstrates that while deep learning models like DistilBERT can yield the highest accuracy for text classification tasks, classical models still perfrom great, especially when balancing resource efficiency and performance.
 
-In this particular use case, the marginal gains from DistilBERT (~3% macro F1) must be weighed against the large increase in training time and compute requirements. For many practical applications, classical models may offer a better balance of efficiency and accuracy.
+In this particular use case, the marginal gains from DistilBERT (~3% macro F1) must be weighed against the large increase in training time and compute requirements. For many practical applications, classical models will offer a better balance of efficiency and accuracy.
 
 ## License
 
